@@ -50,8 +50,8 @@
     "path"
   ],
   "dependencies": {
-    "find-up": "^1.0.0",
-    "read-pkg": "^1.0.0"
+    "@zkochan/read-pkg": "^1.1.2",
+    "find-up": "^1.0.0"
   },
   "devDependencies": {
     "ava": "*",

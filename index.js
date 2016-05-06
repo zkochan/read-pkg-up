@@ -1,6 +1,6 @@
 'use strict';
 var findUp = require('find-up');
-var readPkg = require('read-pkg');
+var readPkg = require('@zkochan/read-pkg');
 
 module.exports = function (opts) {
 	return findUp('package.json', opts).then(function (fp) {
