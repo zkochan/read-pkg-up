@@ -1,9 +1,9 @@
 {
-  "name": "read-pkg-up",
-  "version": "1.0.1",
+  "name": "@zkochan/read-pkg-up",
+  "version": "1.0.2",
   "description": "Read the closest package.json file",
   "license": "MIT",
-  "repository": "sindresorhus/read-pkg-up",
+  "repository": "zkochan/read-pkg-up",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

@@ -1,5 +1,5 @@
 <!--@'# ' + package.name + shields('travis')-->
-# read-pkg-up[![Build status for master](https://img.shields.io/travis/sindresorhus/read-pkg-up/master.svg?style=flat)](https://travis-ci.org/sindresorhus/read-pkg-up)
+# @zkochan/read-pkg-up[![Build status for master](https://img.shields.io/travis/zkochan/read-pkg-up/master.svg?style=flat)](https://travis-ci.org/zkochan/read-pkg-up)
 <!--/@-->
 
 > Read the closest package.json file
@@ -18,7 +18,7 @@
 This module is installed via npm:
 
 ```sh
-npm install read-pkg-up --save
+npm install @zkochan/read-pkg-up --save
 ```
 <!--/@-->
 
@@ -26,18 +26,18 @@ npm install read-pkg-up --save
 
 <!--@example('example.js')-->
 ```js
-const readPkgUp = require('read-pkg-up');
+const readPkgUp = require('@zkochan/read-pkg-up');
 
 readPkgUp().then(result => {
 	console.log(result);
 	//> { pkg: 
-	//     { name: 'read-pkg-up',
-	//       version: '1.0.1',
+	//     { name: '@zkochan/read-pkg-up',
+	//       version: '1.0.2',
 	//       description: 'Read the closest package.json file',
 	//       license: 'MIT',
 	//       repository: 
 	//        { type: 'git',
-	//          url: 'git+https://github.com/sindresorhus/read-pkg-up.git' },
+	//          url: 'git+ssh://git@github.com/zkochan/read-pkg-up.git' },
 	//       author: 
 	//        { name: 'Sindre Sorhus',
 	//          email: 'sindresorhus@gmail.com',
@@ -74,12 +74,12 @@ readPkgUp().then(result => {
 	//          'walk',
 	//          'walking',
 	//          'path' ],
-	//       dependencies: { 'find-up': '^1.0.0', 'read-pkg': '^1.0.0' },
+	//       dependencies: { '@zkochan/read-pkg': '^1.1.2', 'find-up': '^1.0.0' },
 	//       devDependencies: { ava: '*', mos: '^0.16.0', xo: '*' },
-	//       bugs: { url: 'https://github.com/sindresorhus/read-pkg-up/issues' },
+	//       bugs: { url: 'https://github.com/zkochan/read-pkg-up/issues' },
 	//       readme: 'ERROR: No README data found!',
-	//       homepage: 'https://github.com/sindresorhus/read-pkg-up#readme',
-	//       _id: 'read-pkg-up@1.0.1' },
+	//       homepage: 'https://github.com/zkochan/read-pkg-up#readme',
+	//       _id: '@zkochan/read-pkg-up@1.0.2' },
 	//    path: '/home/zoltan/src/read-pkg-up/package.json' }
 });
 ```
